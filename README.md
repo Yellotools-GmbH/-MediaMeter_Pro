@@ -1,5 +1,4 @@
 # -MediaMeter_Pro
-Issue-Only Repository for MediaMeter Pro
 Dieses Repository dient ausschließlich zur Verwaltung von **Issues**.
 
 ---
