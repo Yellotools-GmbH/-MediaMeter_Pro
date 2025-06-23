@@ -1,0 +1,54 @@
+name: ✨ Feature Request
+description: Schlage eine neue Funktion oder Verbesserung vor
+title: "[Feature]: "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vielen Dank für deinen Vorschlag! Bitte fülle die Felder so genau wie möglich aus.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Kurzbeschreibung
+      description: Wie lautet deine Idee in einem Satz?
+      placeholder: Beispiel: Möglichkeit, Einträge zu filtern
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was ist das Problem?
+      description: Welches Problem soll das Feature lösen?
+      placeholder: Ich habe Probleme damit, ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Deine vorgeschlagene Lösung
+      description: Wie könnte dieses Feature konkret aussehen?
+      placeholder: Ich schlage vor, dass ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen oder verwandte Ideen
+      description: Hast du über andere Möglichkeiten nachgedacht?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Weitere Informationen
+      description: Screenshots, Mockups oder Referenzen
+    validations:
+      required: false
