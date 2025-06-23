@@ -15,7 +15,7 @@ body:
     attributes:
       label: Kurzbeschreibung
       description: Wie lautet deine Idee in einem Satz?
-      placeholder: Beispiel: Möglichkeit Einträge zu filtern
+      placeholder: z.B Möglichkeit Einträge zu filtern
     validations:
       required: true
 
