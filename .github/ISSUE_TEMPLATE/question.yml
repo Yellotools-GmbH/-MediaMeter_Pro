@@ -1,0 +1,37 @@
+name: ❓ Frage / Hilfe
+description: Stelle eine allgemeine Frage oder bitte um Unterstützung
+title: "[Frage]: "
+labels: [question]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Stelle hier deine Frage oder bitte um Hilfe bei einem bestimmten Problem.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Thema oder Bereich
+      description: Worum geht es?
+      placeholder: z. B. Setup, Konfiguration, API-Nutzung, UI
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Deine Frage
+      description: Beschreibe dein Anliegen oder die Frage möglichst genau.
+      placeholder: Wie kann ich ...?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Kontext (optional)
+      description: Relevante Hintergründe, Konfiguration, Code etc.
+    validations:
+      required: false
