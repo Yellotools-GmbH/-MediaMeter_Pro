@@ -1,0 +1,20 @@
+name: 🔁 Regression
+description: Etwas, das früher funktionierte, jetzt aber nicht mehr
+title: "[Regression]: "
+labels: [bug, regression]
+body:
+  - type: input
+    id: last_working_version
+    attributes:
+      label: Letzte funktionierende Version
+      placeholder: z. B. v1.4.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: regression_details
+    attributes:
+      label: Was funktioniert nicht mehr?
+      description: Beschreibe das vorherige und das aktuelle Verhalten
+    validations:
+      required: true
